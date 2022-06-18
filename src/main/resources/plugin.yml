@@ -1,0 +1,19 @@
+{
+  "name": "BaldPlugin",
+  "version": "1.0.0",
+  "description": "Bald SMP Plugin",
+  "authors": [ "PulseBeat02" ],
+  "api-version": "1.19",
+  "main": "io.github.pulsebeat02.baldplugin.BaldPlugin",
+  "depend": ["Multiverse-Core"],
+  "commands": {
+    "map": {
+      "description": "Gives you a URL to the map of the server",
+      "usage": "/map",
+    },
+    "world": {
+      "description": "Allows you to teleport between worlds",
+      "usage": "/world [survival | creative]",
+    }
+  }
+}
